@@ -1,0 +1,15 @@
+<nav class="fixed top-0 left-0 w-full bg-white shadow z-10">
+  <ul class="flex justify-center space-x-4 py-4">
+    <li><a routerLink="/" class="hover:underline">Home</a></li>
+    <li><a routerLink="/about" class="hover:underline">About</a></li>
+    <li><a routerLink="/skills" class="hover:underline">Skills</a></li>
+    <li><a routerLink="/experience" class="hover:underline">Experience</a></li>
+    <li><a routerLink="/projects" class="hover:underline">Projects</a></li>
+    <li><a routerLink="/contacts" class="hover:underline">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Main content section -->
+<div class="pt-20"> <!-- Add padding-top to prevent overlap with navbar -->
+  <router-outlet />
+</div>
